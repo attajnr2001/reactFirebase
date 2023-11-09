@@ -55,7 +55,7 @@ function Auth() {
       />
       <button onClick={signIn}>Sign In</button>
       <button onClick={logOut}>Logout</button>
-      <button onClick={signInWithGoogle}>Sign in with google</button>
+      <button onClick={signInWithGoogle}>Sign in with Google</button>
     </div>
   );
 }
