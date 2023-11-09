@@ -130,7 +130,7 @@ function App() {
             >
               {movie.title}
             </h3>
-            <p>published in {movie.releaseDate}</p>
+            <p>published on {movie.releaseDate}</p>
             <button onClick={() => deleteMovie(movie.id)}>Delete</button> <br />
             <input
               type="text"
